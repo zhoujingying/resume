@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="resume.css">
 </head>
 <body>
-    <img src="avatar.jpg">
-    <div class="main">
+    <img src="avatar.jpg" id="self_photo">
+    <div class="main container">
         <div class="header">
             <h2>Hello,</h2>
             <h3>my name is <span>Kamil</span><span>24yo</span> and this is my resume/cv</h3>
@@ -22,33 +23,37 @@
                     <div class="education">
                         <h3 class="public-head">// EDUCATION</h3>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 edu-left">
                                 <span>1990</span>
-                                <span>2005</span>
-                                <span>2009</span>
-                                <span>2012</span>
+                                <span style="top: 26%;">2005</span>
+                                <span style="top: 53%;">2009</span>
+                                <span style="top: 80%;">2012</span>
                                 <div class="red-line"></div>
                             </div>
                             <div class="col-md-9">
                                 <section>
+                                    <div class="triangle"></div>
                                     <p class="section-head">
                                         I was born in Katowice
                                     </p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores iste dolore est aut modi.</p>
                                 </section>
                                 <section>
+                                    <div class="triangle"></div>
                                     <p class="section-head">
                                         I was born in Katowice
                                     </p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores iste dolore est aut modi.</p>
                                 </section>
                                 <section>
+                                    <div class="triangle"></div>
                                     <p class="section-head">
                                         I was born in Katowice
                                     </p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores iste dolore est aut modi.</p>
                                 </section>
                                 <section>
+                                    <div class="triangle"></div>
                                     <p class="section-head">
                                         I was born in Katowice
                                     </p>
@@ -59,17 +64,66 @@
                     </div>
                     <div class="experiences">
                         <h3 class="public-head">// EXPERIENCES</h3>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <p class="edu-left-head">Google</p>
+                                <p class="edu-left-normal">2013 - 2014</p>
+                            </div>
+                            <div class="col-md-9">
+                                <p class="section-head">
+                                    Front-end developer / php programmer
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis veritatis velit sunt similique qui magni totam harum tempore eius laboriosam accusantium necessitatibus voluptatum? Enim, itaque dignissimos quia.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <p class="edu-left-head">Google</p>
+                                <p class="edu-left-normal">2013 - 2014</p>
+                            </div>
+                            <div class="col-md-9">
+                                    <p class="section-head">
+                                        Front-end developer / php programmer
+                                    </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis veritatis velit sunt similique qui magni totam harum tempore eius laboriosam accusantium necessitatibus voluptatum? Enim, itaque dignissimos quia.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="contact">
                         <h3 class="public-head">// CONTACT</h3>
+                        <div class="contact-list">
+                            <div class="list-left">
+                                <span class="glyphicon glyphicon-earphone con-phone"></span>
+                            </div>
+                            <div class="list-right"><span>500 345 242</span></div>
+                        </div>
                     </div>
                     <div class="skills">
                         <h3 class="public-head">// SKILLS</h3>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
+                        </div>
+                        <div class="skills-line">
+                            <div class="skills-line-num num1"></div>
+                            <div class="skills-line-num num2"></div>
+                            <div class="skills-line-num num3"></div>
+                            <div class="skills-line-num num4"></div>
+                        </div>
                     </div>
                     <div class="language">
                         <h3 class="public-head">// LANGUAGE</h3>
+                        <div class="stars">
+                            <span class="glyphicon glyphicon-star red-star"></span>
+                            <span class="glyphicon glyphicon-star red-star"></span>
+                            <span class="glyphicon glyphicon-star red-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+
+                        </div>
                     </div>
                     <div class="hobbies">
                         <h3 class="public-head">// HOBBIES</h3>
